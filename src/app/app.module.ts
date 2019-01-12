@@ -22,7 +22,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     Tab1Page,
     Tab2Page,
     Tab3Page,
-    TabsPage
+    TabsPage 
   ],
   imports: [
     BrowserModule,
@@ -45,4 +45,3 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })
-export class AppModule {}
